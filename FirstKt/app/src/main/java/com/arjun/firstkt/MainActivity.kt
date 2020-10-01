@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
             counter.alpha = 1f
         }
         fab.setOnLongClickListener(){view->
-            count+=10
+            count+=20
             Snackbar.make(view,"Hurray Value increased by 10",Snackbar.LENGTH_SHORT).setAction("undo"
             ) {
                 count -= 10
